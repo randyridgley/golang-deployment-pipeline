@@ -9,7 +9,7 @@ import (
 const version string = "2.0.1"
 
 func rootHandler(w http.ResponseWriter, r *http.Request) {
-	io.WriteString(w, "Current version: "+version+" CTRL")
+	io.WriteString(w, "Current version: "+version+" CTRL.")
 }
 
 func main() {
